@@ -17,6 +17,10 @@ manifest:
     - name: zmk-config
       remote: mctechnology17
       revision: main
+    # oled Adapter
+    - name: zmk-oled-adapter
+      remote: mctechnology17
+      revision: main
     # include dongle display
     - name: zmk-dongle-display
       remote: englmaxi
