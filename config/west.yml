@@ -2,28 +2,16 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # include corne with dongle pro_micro and xiao compatible
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
-    # include dongle display
-    - name: englmaxi
-      url-base: https://github.com/englmaxi
+    - name: billksun
+      url-base: https://github.com/billksun
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
-    # include corne with dongle pro_micro and xiao compatible
+    # Corne dongle config repo
     - name: zmk-config
-      remote: mctechnology17
+      remote: billksun
       revision: main
-    # oled Adapter
-    - name: zmk-oled-adapter
-      remote: mctechnology17
-      revision: main
-    # include dongle display
-    - name: zmk-dongle-display
-      remote: englmaxi
-      revision: v0.3
   self:
     path: config
