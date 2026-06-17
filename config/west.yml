@@ -4,8 +4,6 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: billksun
       url-base: https://github.com/billksun
-    - name: englmaxi
-      url-base: https://github.com/englmaxi
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -15,9 +13,9 @@ manifest:
     - name: zmk-config
       remote: billksun
       revision: main
-    # Additional dongle display configurationcorne_dongle_pro_micro dongle_display
+    # Additional dongle display configuration
     - name: zmk-dongle-display
-      remote: englmaxi
+      remote: billksun
       revision: v0.3
   self:
     path: config
