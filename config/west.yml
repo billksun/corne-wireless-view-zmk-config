@@ -16,6 +16,6 @@ manifest:
     # Additional dongle display configuration
     - name: zmk-dongle-display
       remote: billksun
-      revision: refs/heads/v0.3
+      revision: v0.3.x
   self:
     path: config
