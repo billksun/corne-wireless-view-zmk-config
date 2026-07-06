@@ -107,7 +107,7 @@
             display-name = "Raise";
             bindings = <
 &kp TAB    &kp EXCL  &kp AT         &kp HASH         &kp DLLR               &kp PRCNT            &kp CARET        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERIOD    &kp BSPC
-&kp GRAVE  &none     &kp AMPERSAND  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET     &kp PLUS         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS  &kp COMMA
+&kp GRAVE  &none     &kp AMPERSAND  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET     &kp KP_PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS  &kp COMMA
 &kp TILDE  &none     &trans         &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET    &kp KP_MULTIPLY  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp EQUAL
                                     &trans           &kp DEL                &trans               &trans           &trans        &kp NUMBER_0
             >;
