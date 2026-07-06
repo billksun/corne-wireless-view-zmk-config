@@ -2,10 +2,20 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: billksun
+      url-base: https://github.com/billksun
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
+    # Custom dongle configuration
+    - name: zmk-config
+      remote: billksun
+      revision: main
+    # Additional dongle display configuration
+    - name: zmk-dongle-display
+      remote: billksun
+      revision: v0.3.x
   self:
     path: config
