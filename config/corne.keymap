@@ -95,10 +95,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp C_PLAY_PAUSE  &none               &kp HOME  &kp UP    &kp END    &kp PAGE_UP      &kp C_BRIGHTNESS_INC  &kp F7  &kp F8  &kp F9  &kp F10  &kp K_VOLUME_UP
-&kp C_REWIND      &kp C_FAST_FORWARD  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN    &kp C_BRIGHTNESS_DEC  &kp F4  &kp F5  &kp F6  &kp F11  &kp K_VOLUME_DOWN
-&kp C_PREV        &kp C_NEXT          &trans    &trans    &trans     &none            &none                 &kp F1  &kp F2  &kp F3  &kp F12  &kp K_MUTE
-                                                &trans    &trans     &trans           &trans                &trans  &trans
+&kp C_PLAY_PAUSE  &none               &kp HOME  &kp UP    &kp END    &kp PAGE_UP        &kp C_BRIGHTNESS_INC  &kp F7  &kp F8  &kp F9  &kp F10  &kp K_VOLUME_UP
+&kp C_REWIND      &kp C_FAST_FORWARD  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN      &kp C_BRIGHTNESS_DEC  &kp F4  &kp F5  &kp F6  &kp F11  &kp K_VOLUME_DOWN
+&kp C_PREV        &kp C_NEXT          &trans    &trans    &trans     &kp PRINTSCREEN    &none                 &kp F1  &kp F2  &kp F3  &kp F12  &kp K_MUTE
+                                                &trans    &trans     &trans             &trans                &trans  &trans
             >;
         };
 
